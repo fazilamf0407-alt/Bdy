@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday Bestie 💖</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: white;
+      margin-top: 100px;
+    }
+    h1 {
+      font-size: 3em;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 18px;
+      border: none;
+      border-radius: 10px;
+      background-color: white;
+      color: #ff6f91;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Happy Birthday Bestie! 🎉</h1>
+  <p id="message">Click the button for a surprise 💌</p>
+  <button id="btn" onclick="showMessage()">Click Me 💖</button>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").innerHTML =
+        "You are my happiness 💕<br>" +
+        "My safe place 🫶<br>" +
+        "My partner in crime 😌<br>" +
+        "My biggest support 💪<br>" +
+        "My endless laughter 😂<br><br>" +
+
+        "Golden hours with U 💗🎀<br>" +
+        "Always you made my day with ur attention and love 💕<br>" +
+        "The only memories that never fade away, because of U 💗💖<br><br>" +
+
+        "I’m so lucky to have you in my life 💖<br>" +
+        "Happy Birthday, my forever bestie 🎂✨";
+
+      // Hide the button after click
+      document.getElementById("btn").style.display = "none";
+    }
+  </script>
+
+</body>
+</html>
